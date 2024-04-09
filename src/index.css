@@ -1,0 +1,198 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fCECD0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+@font-face {
+  font-family: 'graffiti';
+  src: url('../public/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+}
+
+.leftside{
+  height: 70rem;
+
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightside{
+  height: 70rem;
+  
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.middle{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  
+}
+
+.one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+
+  height: 100Vh;
+}
+
+.three{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.two-one{
+  border-right: 1px solid black;
+  height: 500px;
+  margin-right: 150px;
+ 
+}
+
+.two-three{
+    margin-top: 15px;
+    border-left: 0.5px solid black;
+    height: 500px;
+    margin-left: 150px;
+   
+    
+  
+}
+
+.two-three-btn {
+  background-color: rgba(252, 21, 23, 0); /* Red color with 70% opacity */
+  color: #fC1517; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 0; /* Sharp edges */
+  margin-left: 30px;
+  margin-top: 400px;
+  font-family: graffiti;
+  font-size: 40px;
+}
+.digital-watch{
+  font-size: larger;
+  font-family: helvetica;
+}
+
+.digital-watch-one{
+  font-size: larger;
+  font-family: helvetica;
+}
+
+.two-one-btn {
+  background-color: rgba(252, 21, 23, 0); /* Red color with 70% opacity */
+  background-size: 100% 100%; /* Make the background image cover the entire button */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  color: #fc1517; /* Text color */
+  border: none; /* Remove default border */
+  padding: 0; /* Remove padding */
+  width: auto; /* Adjust width automatically based on the content */
+  height: auto; /* Adjust height automatically based on the content */
+  border-radius: 0; /* Remove border-radius */
+  margin-right: 40px;
+  margin-top: 30px;
+  font-family: graffiti;
+  font-size: 40px;
+}
